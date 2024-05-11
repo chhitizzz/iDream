@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #000;
+    color: white;
+  }
+  .header .logo {
+    display: flex;
+    align-items: center;
+  }
+  .header nav {
+    display: flex;
+  }
+  .header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+  }
+  .hero {
+    display: flex;
+  }
+  .hero-section {
+    width: 50%;
+    position: relative;
+    color: white;
+  }
+  .hero-section h2 {
+    font-size: 2em;
+    padding: 20px;
+  }
+  .hero-section p {
+    font-size: 1em;
+    padding: 0 20px 20px;
+  }
+  .hero-section .button {
+    background: orange;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 20px;
+  }
+  .hero-section.left {
+    background: url('https://swimply-static.imgix.net/seo/hero/hoops.png?auto=compress%2Cformat&fit=min&fill=blur&w=2304&q=30&ixlib=react-9.8.1') no-repeat center center;
+    background-size: cover;
+  }
+  .hero-section.right {
+    background: url('right-image.jpg') no-repeat center center;
+    background-size: cover;
+  }
